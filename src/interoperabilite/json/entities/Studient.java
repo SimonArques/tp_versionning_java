@@ -6,5 +6,7 @@ public class Studient extends User {
 	
 	Promotion promotion;
 	
-
+	public Studient(){
+		super();
+	}
 }
