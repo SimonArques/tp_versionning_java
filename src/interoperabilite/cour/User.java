@@ -6,7 +6,7 @@ public class User {
 	};
 
 	public static class Name {
-		private String _first, _last;
+		protected String _first, _last;
 
 		public String getFirst() {
 			return _first;
@@ -30,10 +30,10 @@ public class User {
 		}
 	}
 
-	private Gender _gender;
-	private Name _name;
-	private boolean _isVerified;
-	private byte[] _userImage;
+	protected Gender _gender;
+	protected Name _name;
+	protected boolean _isVerified;
+	protected byte[] _userImage;
 
 	public Name getName() {
 		return _name;
